@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 3rem;
+}
+
+.sky {
+  background-image: linear-gradient(to bottom, rgba(0, 140, 255, 0.967), rgb(148, 205, 255));
+  height: 40vh;
+  z-index: -100;
+}
+
+.ground {
+  background-image: linear-gradient(to top, rgba(89, 68, 0, 0.967), rgba(235, 181, 3, 0.967));
+  height: 40vh;
+  z-index: -100;
+}
